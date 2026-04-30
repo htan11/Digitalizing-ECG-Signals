@@ -1,0 +1,15 @@
+hyperparameter,value
+seed,42
+signal_length,256
+image_height,128
+image_width,512
+digitizer_epochs,3
+classifier_epochs,3
+batch_size,16
+learning_rate,0.001
+validation_size,0.2
+test_size,0.2
+conv_filters,"[16, 32, 64]"
+dropout,0.25
+lstm_units,32
+classes,"[""low_amplitude"", ""normal_amplitude"", ""high_amplitude""]"
